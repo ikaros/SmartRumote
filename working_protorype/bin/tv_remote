@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require("./" + File.dirname(__FILE__) + "/../lib/samsung_tv_remote.rb")
+
+
+TV_IP    = "192.168.178.23"
+TV_MODEL = "iphone.UE46C6200.iapp.samsung"
+MY_MAC   = "f8:1e:df:e7:be:96"
+
+remote = SamsungTvRemote.interactive!(TV_IP, TV_MODEL, MY_MAC)

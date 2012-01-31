@@ -1,8 +1,26 @@
-= smart_tv_remote
+SmartRumote
+===========
 
-Control your Samsung Smart Tv with ruby
+Control your Samsung Smart TV with ruby
 
-== Contributing to smart_tv_remote
+Working prototype
+-----------------
+
+There is a allready working prototype in the so named folder.
+You will have to change something in order to make it work for you.
+Just look into working_prototype/bin/tv_remote
+
+Planned features
+----------------
+
+* Scripting API to combine single commands to complexer behaviour
+* Interactive mode to make the keyboard your remote
+* Full feature set as in the samsung remote iphone and android apps
+
+Contributing to SmartRumote
+===========================
+
+If you also own a Samsung Smart TV, it would be great if you contibute to this project.
 
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
